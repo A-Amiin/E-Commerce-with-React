@@ -1,0 +1,60 @@
+.news-letter {
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #FDE1FF 0%, #e1ffea22 60%);
+    padding: 0 64px;
+    margin: 65px auto;
+    gap: 20px;
+}
+
+.news-letter h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.news-letter p {
+    font-size: 2rem;
+    color: #666;
+    line-height: 2.5rem;
+}
+
+.news-letter .email-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.email-sec input {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #f39090;
+    outline: none;
+    color: #333;
+    font-family: inherit;
+}
+
+.email-sec button {
+    font-family: inherit;
+    background: #ff4141;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.email-sec button:hover {
+    background: #ff0000;
+}
